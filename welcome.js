@@ -15,18 +15,18 @@ setTimeout(function () {
 			}
 			else {
 				body_str = 'Tips:<br/>Please keep in mind that most key shortcuts rely on the <strong>Shift + <u>key</u></strong> combo. (eg Shift+Z for undo, Shift+C copy, Shift+X cut... etc )<br/><br/>';
-				body_str2 = 'Check out the codebase on <a href="https://github.com/pkalogiros/audiomass" target="_blank">Github</a><br/><br/>'; // checkout the code on github
+				body_str2 = '© Copyright From 2015 till now <a href="https://zarinsolutions.com/"><strong>Zarin Solutions Inc.</strong></a> Design & Code with ❤️ of <a href="https://anas.zarin.solutions/" rel="nofollow">Muhammad Anas</a><br/><br/>'; // checkout the code on github
 			}
 
-			// Welcome to AudioMass,
+			// Welcome to Zarin Audio Editor,
 			var md = new PKSimpleModal({
-				title: '<font style="font-size:15px">Welcome to AudioMass</font>',
+				title: '<font style="font-size:15px">Welcome to Zarin Audio Editor</font>',
 				ondestroy: function( q ) {
 					PKAE.ui.InteractionHandler.on = false;
 					PKAE.ui.KeyHandler.removeCallback ('modalTemp');
 			},
 			body:'<div style="overflow:auto;-webkit-overflow-scrolling:touch;max-width:580px;width:calc(100vw - 40px);max-height:calc(100vh - 340px);min-height:110px;font-size:13px; color:#95c6c6;padding-top:7px;">'+
-				'AudioMass is a free, open source, web-based Audio and Waveform Editor.<br />It runs entirely in the browser with no backend and no plugins required!'+
+				'Zarin Audio Editor is a free, web-based Audio and Waveform Editor.<br />It runs entirely in the browser with no backend and no plugins required!'+
 				'<br/><br/><br/>'+
 				body_str+
 				'You can load any type of audio your browser supports and perform operations such as fade in, cut, trim, change the volume, '+

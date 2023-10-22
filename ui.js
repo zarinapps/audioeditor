@@ -1266,7 +1266,7 @@
 						}
 					},
 					// {
-					// 	name   : 'About AudioMass',
+					// 	name   : 'About Zarin',
 					// 	action : function () {
 					// 		window.open ('/about.html');
 					// 	}
@@ -1277,9 +1277,9 @@
 					// },
 
 					{
-						name   : 'SourceCode on Github',
+						name   : 'About Developer',
 						action : function () {
-							window.open ('https://github.com/pkalogiros/audiomass');
+							window.open ('https://anas.zarin.solutions');
 						}
 					}
 				]
